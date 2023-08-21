@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 700px;
+    padding: 0px 25px ;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+header img{
+    width: 150px;
+}
+
+.intro{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #009b3a;
+    font-weight: bold;
+}
+
+.listas{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 100px;
+}
+
+.listas h3{
+    padding-bottom: 20px;
+}
+
+.estados h2{
+    text-align: center;
+}
+
+
