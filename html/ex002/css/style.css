@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
+/*CONFIGS GLOBAIS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* CABEÇALHO */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #010626;
+}
+
+header .logo{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-right: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+   
+}
+
+.menu li{
+    color: white;
+}
+
+.menu li:hover{
+    color: #056CF2;
+    transition: 1s ease;
+}
+
+
+
+/* HERO SECTION */
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76) ),url(../assets/hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    padding-top: 50px;
+
+    
+}
+
+.primary-text{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+.secondary-text{
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#verMais{
+    color: white;
+    background-color: #275bf6;
+    font-size: 18px;
+    padding:  10px 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#verMais:hover{
+    background-color: #5982ff;
+    transition: 2s ease;
+    
+}
+
+/* O QUE É O PROGRAMA */
+
+.whatIs{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #275bf6;
+    color: white;
+}
+
+.whatIs h3{
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.whatIs p{
+    font-size: 1.1em;
+}
+
+.whatIs1{
+    background-color: #056CF2;
+    width: 600px;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.whatIs h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 10%;
+    
+}
+
+.whatIs2{
+    background-color: #056CF2;
+    width: 600px;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.whatIs3{
+    background-color: #056CF2;
+    width: 600px;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.whatIs4{
+    background-color: #056CF2;
+    width: 600px;
+    padding: 30px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+/* BENEFÍCIOS */
+
+
+.beneficios{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+}
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 10%;
+    gap: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.beneficios h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.beneficios h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.beneficios p{
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.beneficios img{
+    width: 450px;
+    padding-top: 25px;
+}
+
+
+/* PROCESSO SELETIVO */
+
+.selecao{
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;}
+
+    .content3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px 10%;
+        gap: 35px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .selecao h2{
+        text-align: center;
+        font-size: 35px;
+       
+    }
+
+    .selecao h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .selecao p{
+        font-size: 1.1em;
+        
+    }
+
+    .selecao img{
+        width: 450px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+
+/* FOOTER */
+
+footer{
+    height: 250px;
+    background-color: #010626;
+    color: white;
+    padding: 35px;
+}
+
+.footer-menu{
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 30px 10%;
+        justify-content: center;
+        gap: 20px;
+    
+}
+
+.footer-menu ol{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
