@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap");
+
+/*CONFIGS GLOBAIS*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CABEÇALHO */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #010626;
+}
+
+header .logo {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-right: 30px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu li {
+  color: white;
+}
+
+.menu li:hover {
+  color: #056cf2;
+  transition: 1s ease;
+}
+
+/* HERO SECTION */
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.674), rgb(0, 0, 0)),
+    url(../assets/hero.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 93vh;
+  padding-top: 100px;
+}
+
+.primary-text {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  padding: 20px;
+}
+
+.secondary-text {
+  color: white;
+  margin: 30px;
+  padding-top: 30px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.button {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#verMais {
+  color: white;
+  background-color: #275bf6;
+  font-size: 18px;
+  padding: 10px 35px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#verMais:hover {
+  background-color: #5982ff;
+  transition: 1s ease;
+}
+
+/* O QUE É O PROGRAMA */
+
+.whatIs {
+  display: grid;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #275bf6;
+  color: white;
+
+}
+
+.whatIs h3 {
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+.whatIs p {
+  font-size: 1.1em;
+}
+
+.whatIs1 {
+  background-color: #056cf2;
+  width: 600px;
+  height: 210px;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.whatIs h2 {
+  font-size: 35px;
+  text-align: center;
+  filter: drop-shadow(2px 3px 0px #010626);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 30px 10%;
+}
+
+.whatIs2 {
+  background-color: #056cf2;
+  width: 600px;
+  height: 210px;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.whatIs3 {
+  background-color: #056cf2;
+  width: 600px;
+  height: 270px;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.whatIs4 {
+  background-color: #056cf2;
+  width: 600px;
+  height: 270px;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+/* BENEFÍCIOS */
+
+.beneficios {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.content2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 10%;
+  gap: 35px;
+  justify-content: center;
+  text-align: center;
+}
+
+.beneficios h2 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.beneficios h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.beneficios p {
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+.beneficios img {
+  width: 450px;
+  padding-top: 25px;
+}
+
+
+/* PROCESSO SELETIVO */
+
+.selecao {
+  background-color: white;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.content3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 10%;
+  gap: 35px;
+  justify-content: center;
+  text-align: center;
+}
+
+.selecao h2 {
+  text-align: center;
+  font-size: 35px;
+  filter: drop-shadow(2px 2px 2px #00000047);
+  
+}
+
+.selecao h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.selecao p {
+  font-size: 1.1em;
+}
+
+.selecao img {
+  width: 450px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.creditos {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.creditos a{
+  color: #056cf2;
+  font-weight: bold;
+}
+
+.creditos a:hover{
+  color: #010626;
+  transition: .3s;
+}
+
+/* FOOTER */
+
+footer {
+  height: 275px;
+  background-color: #010626;
+  color: white;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 15px;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 10%;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-menu ol {
+  list-style-type: none;
+}
+
+.icons {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #056cf2;
+  transition: 0.6s ease;
+}
