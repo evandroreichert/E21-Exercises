@@ -39,10 +39,6 @@ header{
     text-align: center;
 }
 
-.W{
-    color: purple;
-}
-
 header p{
     color: white;
     text-align: center;
@@ -114,6 +110,7 @@ img{
 
 
 img:hover{
+    transform: scale(1.1);
     filter: drop-shadow(2px 2px 2px black);
     transition: .3s ease;
 }
@@ -186,10 +183,6 @@ footer{
     color: rgb(167, 166, 166);
     transition: .3s ease;
 }
-
-
-
-
 
 footer h3{
     padding: 10px;
