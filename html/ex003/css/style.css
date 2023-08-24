@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Inter:wght@100;500;700;800;900&display=swap');
+
+/*CONFIGURAÇÕES GLOBAIS*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    width: 70%;
+    margin: auto;
+}
+
+body{
+  background: linear-gradient(180deg,#000000 0%,rgb(26, 27, 27));
+}
+
+/*HEADER*/
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(../assets/images/banner1.png);
+    height: 350px;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo{
+    color: white;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+
+.W{
+    color: purple;
+}
+
+header p{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.menu-items a:hover{
+    background-color: #212121;
+    transition: .2s;
+}
+
+.menu-items a{
+   color: white;
+   text-decoration: none;
+   padding: 10px 50px;  
+   
+}
+
+/*  MAIN  */
+
+main{
+    display: flex;
+    padding: 50px 60px;
+    background-color: #272727;
+    justify-content: center;
+}
+
+
+
+p{
+    color: white;
+    font-size: 0.9em;
+    line-height: 25px;
+    padding-left: 18px;
+
+}
+
+b{
+    color: rgb(167, 166, 166);
+}
+
+details{
+    gap: 50px;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 60px 0px;
+    
+}
+
+img{
+    padding-left: 50px;
+    width: 200px;
+}
+
+
+img:hover{
+    filter: drop-shadow(2px 2px 2px black);
+    transition: .3s ease;
+}
+
+audio{
+    filter: drop-shadow(3px 5px 2px black);
+}
+
+/*  FAQ  */
+
+.faq{
+    width: 605px;
+    padding-top: 30px;
+    background-color: #1E1E1E;
+    padding: 30px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.faq p{
+    font-size: 1em;
+    padding-bottom: 30px;
+}
+
+.faq b{
+    color: white;
+    font-weight: 800;
+}
+
+.faq summary{
+    padding-bottom: 40px;
+}
+
+summary{
+    color: white;
+    font-size: 1.15em;
+    cursor: pointer;
+    padding-bottom: 15px;
+   
+}
+
+details[open] > summary{
+    color: rgb(167, 166, 166);
+}
+
+/*  FOOTER  */
+
+footer{
+    background-color: #1E1E1E;
+    color: white;
+    
+    
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    gap: 20px;
+    height: 50px;
+    
+}
+
+.main-footer a{
+    color: white;
+}
+
+.main-footer a:hover{
+    color: rgb(167, 166, 166);
+    transition: .3s ease;
+}
+
+
+
+
+
+footer h3{
+    padding: 10px;
+}
+
