@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --amarelo: #ffe34b;
+    --font-titles: 'Bebas Neue', sans-serif;
+    --font-texts: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*     HEADER     */
+
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 220px;
+    padding-left: 100px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    font-family: var(--font-titles);
+    font-size: 1.4em;
+    align-items: center;
+    padding-right: 100px;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: var(--amarelo);
+    transition: .6s ease;
+}
+
+
+ /*     HERO SECTION     */
+
+
+.hero{
+    display: flex;
+    height: 89.9vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #272727;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1{
+    color: var(--amarelo);
+    font-family: var(--font-titles);
+    font-size: 4em;
+    gap: 50px;
+}
+
+.hero-content p{
+    color: white;
+    font-family: var(--font-texts);
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+video{
+    width: 750px;
+    filter: drop-shadow(4px 4px 5px black);
+}
+
+button{
+    background-color: var(--amarelo);
+    width: 350px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-titles);
+    font-size: 1.8em;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+.portfolio{
+    padding: 40px;
+    text-align: center;
+    font-family: var(--font-texts);
+}
+
+.portfolio h2{
+    font-size: 2.2em;
+}
+
+.portfolio p{
+    font-size: 1.3em;
+}
+
+.fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+figure:hover{
+    transform: scale(1.15);
+    transition: 1s;
+    cursor: pointer;
+}
+
+figcaption{
+    font-family: var(--font-titles);
+    font-size: 1.5em;
+    padding: 15px 0px 50px 0px;
+   
+}
+
+
+
+.video{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 89.9vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: #272727;
+}
+
+.video-content{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: left;
+    justify-content: center;
+}
+
+.video-content h1{
+    color: var(--amarelo);
+    font-family: var(--font-titles);
+    font-size: 4em;
+    gap: 50px;
+}
+
+.video-content p{
+    color: white;
+    font-family: var(--font-texts);
+    font-size: 1.3em;
+    padding-bottom: 25px;
+    
+}
+
+.video-insta{
+    width: 600px;
+    cursor: pointer;
+}
+
+video{
+    width: 750px;
+    filter: drop-shadow(4px 4px 5px black);
+}
+
+button{
+    background-color: var(--amarelo);
+    width: 350px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-titles);
+    font-size: 1.8em;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+.reviews{
+    transition: 2s;
+}
+
+
+.reviews h2{
+    font-family: var(--font-texts);
+    text-align: center;
+    font-size: 2.2em;
+    padding: 50px;
+}
+
+footer{
+    background-color: #272727;
+    color: white;
+    text-align: left;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer h2{
+    display: grid;
+    font-family: var(--font-titles);
+    color: white;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--amarelo);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color: black;
+}
+
+.socialIcons a:hover{
+    background-color: black;
+    transition: .4s ease;
+}
+
+.socialIcons a:hover i{
+    color: var(--amarelo);
+    transform: .4s ease;
+}
+
+.footerNav{
+    margin: 15px 0px;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: var(--font-texts);
+    font-weight: 700;
+}
+
+.footerNav ul li a:hover{
+    color: var(--amarelo);
+    transition: .4s ease;
+}
+
+.creditos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--font-texts);
+}
+
+.creditos b a{
+    font-weight: 900;
+    color: var(--amarelo);
+    text-decoration: none;
+}
