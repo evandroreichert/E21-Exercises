@@ -12,12 +12,16 @@
     list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*     HEADER     */
 
 
 header{
     background-color: black;
-    width: 100%;
+    
 }
 
 nav{
@@ -58,7 +62,6 @@ nav{
 .hero{
     display: flex;
     height: 89.9vh;
-    width: 100%;
     align-items: center;
     justify-content: center;
     gap: 70px;
@@ -83,7 +86,7 @@ nav{
 .hero-content p{
     color: white;
     font-family: var(--font-texts);
-    font-size: 1.3em;
+    font-size:clamp(16px, 1.3em, 2em); 
     text-align: center;
     padding-bottom: 25px;
     
@@ -147,8 +150,6 @@ figcaption{
     padding: 15px 0px 50px 0px;
    
 }
-
-
 
 .video{
     display: flex;
@@ -242,12 +243,6 @@ footer h2{
     justify-content: center;
 }
 
-
-
-
-
-
-
 .socialIcons{
     display: flex;
     justify-content: center;
@@ -313,3 +308,95 @@ footer h2{
     color: var(--amarelo);
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px) {
+    
+    
+        .menu {
+            display: none;}
+
+        video{
+            width: 90vw;
+           
+        }
+
+        .hero{
+            display: grid;
+            
+            
+        }
+
+        .hero h1{
+            padding: 20px 0px;
+            width: 90vw;
+            text-align: center;
+        }
+
+        .hero p{
+            width: 90vw;
+        }
+
+        .hero-content{
+            width: 90vw;
+        }
+
+
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo{
+            padding: 0;
+        }
+
+        button{
+            max-width: 70%;
+        }
+
+        .footerNav ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero{
+            height: fit-content;
+        }
+
+        .fotos{
+            grid-template-columns: 1fr;
+        }
+            
+        .video{
+            display: grid;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+
+        .video-content{
+            max-width: 80vw;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .video-insta{
+            max-width: 80vw;
+        }
+
+        .reviews h2{
+            max-width: 80vw;
+            padding: 30px;
+        }
+
+        .hero-video{
+            padding: 30px;
+        }
+
+    }
