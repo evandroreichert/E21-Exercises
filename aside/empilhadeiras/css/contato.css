@@ -18,7 +18,7 @@ main{
    line-height: 28px;
    align-items: center;
    justify-content: center;
-    height: 80vh;
+    height: 70vh;
     width: 1000px;
     margin: auto;
     font-family: var(--font-texts);
@@ -82,5 +82,18 @@ main{
     
     .container{
         max-width: 80vw;
+        height: auto;
+        padding: 30px;
     }
+
+    main{
+        height: auto;
+    }
+    
+    
+    h1{
+        line-height: 40px;
+    }
+
+
 }
