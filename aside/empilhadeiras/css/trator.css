@@ -1,3 +1,8 @@
+.ilustrativa{
+    color: white;
+    font-size: 1em;
+}
+
 .fotos{
     display: flex;
     align-items: center;
@@ -6,7 +11,11 @@
 }
 
 @media screen and (max-width: 768px) {
-   .fotos{
+    .fotos{
     display: block;
+    }
+    .video img{
+        max-width: 80vw;
+        padding: 0px;
     }
 }
