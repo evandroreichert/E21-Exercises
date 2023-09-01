@@ -19,22 +19,22 @@
         </div>
         <nav class="navMenu">
             <ul>
-                <li><a href="">Início</a></li>
-                <li><a href="">Origem</a></li>
-                <li><a href="">Características</a></li>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#universo">O Universo</a></li>
+                <li><a href="#viloes">Vilões</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="hero">
+        <section class="hero" id="hero">
             <video autoplay loop muted src="assets/hero.mp4"></video>
             
-            <button class="start">START</button>
+            <a href="#universo"><button class="start">START</button></a>
         </section>
 
-        <section class="origin">
+        <section class="origin" id="universo">
             <div class="intro">
                 <h1>VENOM</h1>
                 
@@ -114,19 +114,26 @@
             </div>
         </section>
 
-        <section>
-            <h2>Vilões</h2>
-            <p>Tão complexos e sombrios quanto o próprio simbionte</p>
+        <section class="viloes" id="viloes">
+            <div class="viloesTitle">
+                <h2>Vilões</h2>
+                <p>Tão complexos e sombrios <br> quanto o próprio simbionte</p>
+            </div>
 
-            <h3>Carnificina</h3>
-            <p>Carnificina é outro simbionte alienígena, criado a partir do simbionte original do Venom e do serial killer Cletus Kasady. Ele é mais violento, insano e poderoso do que o Venom.</p>
-            <img src="" alt="">
-
-            <h3>Kraven, o Caçador</h3>
-            <p>Kraven é um vilão clássico do Homem-Aranha, conhecido como um dos maiores caçadores do mundo. Ele captura o Venom para tentar caçar o próprio Homem-Aranha.</p>
-
-            <h3>Homem-Aranha</h3>
-            <p>O Homem-Aranha é um dos principais inimigos do Venom, desde a época em que o simbionte ainda estava no corpo de Peter Parker. Ele representa o oposto do Venom em termos de personalidade e valores.</p>
+            <div class="viloesContainer">
+                <div class="vilao">
+                    <h3>Carnificina</h3>
+                    <img src="assets/carnificina.jpg" alt="">
+                </div>
+                <div class="vilao">
+                    <h3>Kraven, o Caçador</h3>
+                    <img src="assets/KRAVEN.jpg" alt="">
+                </div>
+                <div class="vilao">
+                    <h3>Homem-Aranha</h3>
+                    <img src="assets/homem-aranha.jpg" alt="">
+                </div>
+            </div>
         </section>
 
     </main>

@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -231,5 +232,66 @@ h2{
 .adaptation .title h3{
     text-decoration: underline;
     text-decoration-color: #6e0f11;
+}
+
+.viloes{
+    background-image: url(assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: 100%;
+}
+
+.viloesTitle{
+    color: white;
+    padding-top: 350px;
+    padding-left: 150px;
+}
+
+.viloesTitle h2{
+    text-align: left;
+    font-family: 'Unbounded', sans-serif;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 3.5em;
+}
+
+.viloesTitle p{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.viloesContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.vilao{
+    max-width: 350px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+
+}
+
+.vilao img{
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 2px solid 
+}
+
+.vilao img:hover{
+    transform: translateY(-15px);
+    transition: .5s ease-in-out;
+}
+
+.vilao h3{
+    filter: drop-shadow(3px 3px 0 black); 
 }
 
